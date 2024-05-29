@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const dialogflow = require("@google-cloud/dialogflow");
 const uuid = require("uuid");
 const axios = require("axios");
+require("dotenv").config();
 
 const app = express();
 app.use(bodyParser.json());
