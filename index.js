@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Path to your Dialogflow key file
-// const keyFilePath = "./chatbot.json";  replace with you dialogflow json file
+const keyFilePath = "./chatbot.json"; //replace with you dialogflow json file
 const projectId = "chatbot-dgvb"; // replace with your Dialogflow project ID
 
 // Create a new session client
